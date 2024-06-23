@@ -1,0 +1,32 @@
+*{
+    font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+      box-sizing: border-box;
+}
+
+.board {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    font-size: 8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightblue;
+  color: darkblue;
+  padding: 15px;
+}
